@@ -11,7 +11,7 @@ export default function MudaItem() {
     };
 
     return (
-        <div className="p-6 max-w-md mx-auto border rounded shadow space-y-4">
+        <div className="p-6 max-w-md mx-auto border rounded shadow mt-4 space-y-4">
             <h1 className="text-xl font-bold">Tarefa</h1>
 
             {editando ? (
